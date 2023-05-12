@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Jacques+Francois&family=Jaldi&family=Kavoon&family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Carlito&family=Jacques+Francois&family=Jaldi&family=Kavoon&family=Libre+Baskerville:wght@700&family=Playfair+Display&display=swap');
+
+*{
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+}
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.aaaa{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+}
+.aaaa h1{
+    width: 530px;
+    text-align: center;
+    line-height: 64px;
+    font-family:"kavoon";
+}
+.aaaa button{
+    width: 300px;
+    height: 70px;
+    background-color: #D48B5C;
+    border-radius: 50px;
+    font-family:"kavoon", cursive;
+    font-size: 40px;
+    color:aliceblue;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.aaaa button:hover{
+    background-color:navy ;
+    color:red;
+}
+    
